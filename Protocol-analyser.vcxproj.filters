@@ -13,10 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\model">
+      <UniqueIdentifier>{0f602ad8-6176-49fe-aa1d-cf62bb68b42b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Protocol-analyser.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="sniffer.c">
+      <Filter>源文件\model</Filter>
     </ClCompile>
+    <ClCompile Include="..\WpdPack\Examples-pcap\UDPdump\udpdump.c">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="抓包接口文档.txt">
+      <Filter>资源文件</Filter>
+    </Text>
   </ItemGroup>
 </Project>
